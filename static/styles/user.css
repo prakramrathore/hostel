@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    color: grey;
+    font-size: 30px;
+    padding: 10px 50px;
+}
+.user{
+    background: url(static/images/login_bg.jpg) no-repeat center center fixed;
+    background-size:cover;
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.welcome{
+    width: fit-content;
+    padding: 30px 60px;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 12px;
+}
+.option{
+    margin-top: 30px;
+    display: flex;
+}
+.admin{
+    width: fit-content;
+    padding: 20px 65px;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    font-size: 30px;
+    margin-right: 78px;
+    border-radius: 12px;
+    border: none;
+}
+.student{
+    width: fit-content;
+    padding: 20px 61px;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    font-size: 30px;
+    border-radius: 12px;
+    border: none;
+}
+.student a:visited, .student a:link{
+    text-decoration: none;
+    color: white;
+}
+.admin:hover{
+    /* margin: 30px 75px; */
+    /* font-size: 40px; */
+    color: rgb(101, 101, 228);
+}
+.student a:hover{
+    color: rgb(101, 101, 228);
+}

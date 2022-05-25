@@ -1,0 +1,20 @@
+doctype html 
+html
+    head 
+        title Hostel Permission Portal 
+        //- link(rel="stylesheet", href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css")
+        style 
+            include ..\static\styles\login.css
+        scripts 
+            script(src='https://kit.fontawesome.com/929e9e1a26.js' crossorigin="anonymous")
+    body 
+        .container
+            h1 Sign In
+            form(action='/home')
+                .box
+                    i.fa.fa-envelope
+                    input#email(type='email' name='email' placeholder='Enter Your Email')
+                .box
+                    i.fa.fa-key
+                    input#password(type='password' name='password' placeholder='Enter Your Password')
+                button.btn(href='/home') Sign in

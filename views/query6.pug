@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts 
+    script(src='../static/js/dropdown.js')
+
+block style
+    style 
+        include ..\static\style.css
+        include ..\static\styles\dropdown.css
+
+block content 
+    section.home-section 
+        nav 
+            .sidebar-button 
+                span.dashboard Query6
+            .search-box 
+                input(type="text", placeholder="Search...")
+                i.bx.bx-search 
+            .profile-details(onclick="menuToggle()")
+                img(src=`../static/images/profile.jpg`, alt="")
+                span.admin_name Prakram Rathore
+                i.bx.bx-chevron-down 
+            .action
+                .menu
+                    h3
+                        | Someone Famous
+                        br
+                        span Website Designer
+                    ul
+                        li
+                            img(src='../static/images/dropdown/profile.png')
+                            a(href='#') My Profile
+                        li
+                            img(src='../static/images/dropdown/edit.png')
+                            a(href='#') Edit Profile
+                        li
+                            img(src='../static/images/dropdown/inbox.png')
+                            a(href='#') Inbox
+                        li
+                            img(src='../static/images/dropdown/settings.png')
+                            a(href='#') Settings
+                        li
+                            img(src='../static/images/dropdown/help.png')
+                            a(href='#') Help
+                        li
+                            img(src='../static/images/dropdown/logout.png')
+                            a(href='#') Logout

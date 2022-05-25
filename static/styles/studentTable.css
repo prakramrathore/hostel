@@ -1,0 +1,57 @@
+.home-content .permissions-boxes{
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 20px; */
+}
+
+/* left box */
+.home-content .permissions-boxes .recent-permissions{
+  width: 65%;
+  background: #fff;
+  padding: 20px 30px;
+  margin: 0 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.home-content .permissions-boxes .permissions-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.permissions-boxes .box .title{
+  font-size: 24px;
+  font-weight: 500;
+  /* margin-bottom: 10px; */
+}
+.permissions-boxes .permissions-details li.topic{
+  font-size: 20px;
+  font-weight: 500;
+}
+.permissions-boxes .permissions-details li{
+  list-style: none;
+  margin: 8px 0;
+}
+.permissions-boxes .permissions-details li a{
+  font-size: 18px;
+  color: #333;
+  font-size: 400;
+  text-decoration: none;
+}
+.permissions-boxes .box .button{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.permissions-boxes .box .button a{
+  color: #fff;
+  background: #0A2558;
+  padding: 4px 12px;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.permissions-boxes .box .button a:hover{
+  background:  #0d3073;
+}
